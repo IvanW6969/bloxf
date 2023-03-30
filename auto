@@ -1,7 +1,7 @@
 wait(2)
 local plr = game.Players.LocalPlayer
 if plr.Name == "usecodemrcodeoff" then
-game.Players.LocalPlayer:Kick("Naga ")
+game.Players.LocalPlayer:Kick("paki naga ")
 else
 -- Gui to Lua
 -- Version: 3.2
