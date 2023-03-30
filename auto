@@ -1,6 +1,6 @@
 wait(2)
 local plr = game.Players.LocalPlayer
-if plr.Name == "VelocityInspired" then
+if plr.Name == "usecodemrcodeoff" then
 game.Players.LocalPlayer:Kick("You have been banned.")
 else
 -- Gui to Lua
