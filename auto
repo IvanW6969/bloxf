@@ -1,2 +1,377 @@
 wait(2)
+local plr = game.Players.LocalPlayer
+if plr.Name == "VelocityInspired" then
 game.Players.LocalPlayer:Kick("You have been banned.")
+else
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Admin = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local Icon = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local Container = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local InfoContainer = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local UserID = Instance.new("TextLabel")
+local AccAge = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Frame_7 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Frame_8 = Instance.new("Frame")
+local _3 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UIGradient = Instance.new("UIGradient")
+local _2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_2 = Instance.new("UIGradient")
+local _1 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_3 = Instance.new("UIGradient")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Frame_9 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local Frame_10 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local FastAccess = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+Admin.Name = "Admin"
+Admin.Parent = game.CoreGui
+
+Frame.Parent = Admin
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.312304795, 0, 0.282527894, 0)
+Frame.Size = UDim2.new(0, 600, 0, 350)
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_2.Position = UDim2.new(0, 1, 0, 1)
+Frame_2.Size = UDim2.new(0, 598, 0, 348)
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = Frame_2
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame_3.Position = UDim2.new(0, 1, 0, 1)
+Frame_3.Size = UDim2.new(0, 596, 0, 346)
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Frame_3
+
+Frame_4.Parent = Frame_3
+Frame_4.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(-5.61156776e-06, 0, 0.0920204669, 0)
+Frame_4.Size = UDim2.new(0, 596, 0, 1)
+
+Icon.Name = "Icon"
+Icon.Parent = Frame_3
+Icon.BackgroundTransparency = 1.000
+Icon.Position = UDim2.new(0.964765131, 0, 0.0260115601, 0)
+Icon.Size = UDim2.new(0.0234899335, 0, 0.0665837973, 0)
+Icon.Image = "rbxassetid://7743878857"
+
+UIAspectRatioConstraint.Parent = Icon
+
+TextLabel.Parent = Frame_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0130000003, 0, 0.00300000003, 1)
+TextLabel.Size = UDim2.new(0, 97, 0, 28)
+TextLabel.Font = Enum.Font.GothamMedium
+TextLabel.Text = "Blox Fruits"
+TextLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel.TextSize = 15.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+Container.Name = "Container"
+Container.Parent = Frame_3
+Container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container.BackgroundTransparency = 1.000
+Container.Position = UDim2.new(0.0117449667, 0, 0.14161849, 0)
+Container.Size = UDim2.new(0, 582, 0, 283)
+
+TextLabel_2.Parent = Container
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.147020578, 0, -0.00442461763, 1)
+TextLabel_2.Size = UDim2.new(0, 160, 0, 25)
+TextLabel_2.Font = Enum.Font.GothamMedium
+TextLabel_2.Text = "OnlyTwentyCharacters"
+TextLabel_2.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_2.TextSize = 15.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_5.Parent = Container
+Frame_5.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_5.Position = UDim2.new(0.0171821304, 0, 0, 0)
+Frame_5.Size = UDim2.new(0, 69, 0, 67)
+
+ImageLabel.Parent = Frame_5
+ImageLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ImageLabel.Position = UDim2.new(0, 1, 0, 1)
+ImageLabel.Size = UDim2.new(0, 67, 0, 66)
+ImageLabel.Image = "rbxassetid://9581016780"
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = ImageLabel
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = Frame_5
+
+InfoContainer.Name = "InfoContainer"
+InfoContainer.Parent = Frame_5
+InfoContainer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoContainer.BackgroundTransparency = 1.000
+InfoContainer.Position = UDim2.new(0.0144927539, 0, 1.08955228, 0)
+InfoContainer.Size = UDim2.new(0, 117, 0, 202)
+
+UIListLayout.Parent = InfoContainer
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 8)
+
+UserID.Name = "UserID"
+UserID.Parent = InfoContainer
+UserID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserID.BackgroundTransparency = 1.000
+UserID.Position = UDim2.new(0.0181546025, 0, 0.257059485, 1)
+UserID.Size = UDim2.new(0, 186, 0, 13)
+UserID.Font = Enum.Font.Gotham
+UserID.Text = "UserID:"
+UserID.TextColor3 = Color3.fromRGB(206, 206, 206)
+UserID.TextScaled = true
+UserID.TextSize = 15.000
+UserID.TextWrapped = true
+UserID.TextXAlignment = Enum.TextXAlignment.Left
+
+AccAge.Name = "AccAge"
+AccAge.Parent = InfoContainer
+AccAge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AccAge.BackgroundTransparency = 1.000
+AccAge.Size = UDim2.new(0, 186, 0, 13)
+AccAge.Font = Enum.Font.Gotham
+AccAge.TextColor3 = Color3.fromRGB(206, 206, 206)
+AccAge.TextScaled = true
+AccAge.TextSize = 14.000
+AccAge.TextWrapped = true
+AccAge.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_3.Parent = Container
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.147020578, 0, 0.0697803274, 1)
+TextLabel_3.Size = UDim2.new(0, 186, 0, 25)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "Welcome to the admin panel."
+TextLabel_3.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 15.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_6.Parent = Container
+Frame_6.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_6.Position = UDim2.new(0.914322972, -2, 0.00399995968, 0)
+Frame_6.Size = UDim2.new(0, 50, 0, 289)
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = Frame_6
+
+Frame_7.Parent = Frame_6
+Frame_7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame_7.Position = UDim2.new(0, 1, 0, 1)
+Frame_7.Size = UDim2.new(0, 48, 0, 287)
+
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = Frame_7
+
+Frame_8.Parent = Frame_7
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 1.000
+Frame_8.Position = UDim2.new(0.229166672, 0, 0.0418118462, 0)
+Frame_8.Size = UDim2.new(0, 25, 0, 267)
+
+_3.Name = "3"
+_3.Parent = Frame_8
+_3.BackgroundTransparency = 1.000
+_3.Position = UDim2.new(-0.517241359, 0, 0.261324048, 0)
+_3.Size = UDim2.new(0, 20, 0, 20)
+_3.Image = "rbxassetid://7733674079"
+
+UIAspectRatioConstraint_2.Parent = _3
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(166, 166, 166))}
+UIGradient.Rotation = 90
+UIGradient.Parent = _3
+
+_2.Name = "2"
+_2.Parent = Frame_8
+_2.BackgroundTransparency = 1.000
+_2.Position = UDim2.new(-0.290640384, 0, 0.348432064, 0)
+_2.Size = UDim2.new(0, 20, 0, 20)
+_2.Image = "rbxassetid://7734053426"
+
+UIAspectRatioConstraint_3.Parent = _2
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(166, 166, 166))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = _2
+
+_1.Name = "1"
+_1.Parent = Frame_8
+_1.BackgroundTransparency = 1.000
+_1.Position = UDim2.new(-0.413793147, 0, 0.574912906, 0)
+_1.Size = UDim2.new(0, 20, 0, 20)
+_1.Image = "rbxassetid://7743875962"
+
+UIAspectRatioConstraint_4.Parent = _1
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(166, 166, 166))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = _1
+
+UIListLayout_2.Parent = Frame_8
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.Padding = UDim.new(0, 10)
+
+Frame_9.Parent = Container
+Frame_9.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_9.Position = UDim2.new(0.0201855432, -2, 0.576438129, 0)
+Frame_9.Size = UDim2.new(0, 512, 0, 126)
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = Frame_9
+
+Frame_10.Parent = Frame_9
+Frame_10.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame_10.Position = UDim2.new(0, 1, 0, 1)
+Frame_10.Size = UDim2.new(0, 510, 0, 124)
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = Frame_10
+
+FastAccess.Name = "Fast-Access"
+FastAccess.Parent = Frame_10
+FastAccess.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FastAccess.BackgroundTransparency = 1.000
+FastAccess.Position = UDim2.new(0.0140000004, 3, 0.0439999998, 3)
+FastAccess.Size = UDim2.new(0, 160, 0, 13)
+FastAccess.Font = Enum.Font.GothamMedium
+FastAccess.Text = "Fast-Access"
+FastAccess.TextColor3 = Color3.fromRGB(200, 200, 200)
+FastAccess.TextScaled = true
+FastAccess.TextSize = 15.000
+FastAccess.TextWrapped = true
+FastAccess.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = Frame_10
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 0.950
+TextButton.Position = UDim2.new(0, 0, 0.29838711, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Auto-Chest"
+TextButton.TextColor3 = Color3.fromRGB(206, 206, 206)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+-- Scripts:
+
+local function PKZTQFH_fake_script() -- Icon.LocalScript 
+	local script = Instance.new('LocalScript', Icon)
+
+	
+end
+coroutine.wrap(PKZTQFH_fake_script)()
+local function GDTGUG_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	local name = game.Players.LocalPlayer.Name
+	
+	script.Parent.Text = name
+end
+coroutine.wrap(GDTGUG_fake_script)()
+local function EVONK_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local plr = game.Players.LocalPlayer
+	local userid = plr.UserId
+	local thumb = Enum.ThumbnailType.HeadShot
+	local e = Enum.ThumbnailSize.Size420x420
+	
+	local imagelabel = script.Parent
+	local content = game.Players:GetUserThumbnailAsync(userid, thumb, e)
+	imagelabel.Image = content
+end
+coroutine.wrap(EVONK_fake_script)()
+local function RONUXDO_fake_script() -- UserID.LocalScript 
+	local script = Instance.new('LocalScript', UserID)
+
+	script.Parent.Text = "UserID : "..game.Players.LocalPlayer.UserId
+end
+coroutine.wrap(RONUXDO_fake_script)()
+local function GVNRL_fake_script() -- AccAge.LocalScript 
+	local script = Instance.new('LocalScript', AccAge)
+
+	local accountage = game.Players.LocalPlayer.AccountAge
+	script.Parent.Text = "Account Age : "..accountage
+end
+coroutine.wrap(GVNRL_fake_script)()
+local function VZTFM_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	script.Parent.Text = "Blox fruits AFK"
+end
+coroutine.wrap(VZTFM_fake_script)()
+local function ZJHISMY_fake_script() -- _1.LocalScript 
+	local script = Instance.new('LocalScript', _1)
+
+	
+end
+coroutine.wrap(ZJHISMY_fake_script)()
+local function YEEMPHY_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local chests = game.Workspace:FindFirstChild("Chest")
+	
+	for _,v in pairs(workspace:GetChildren()) do
+		if v:IsA("Model") then
+			v:FindFirstChildWhichIsA("Part")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+		end
+	end
+end
+coroutine.wrap(YEEMPHY_fake_script)()
+local function WKYXMTK_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(WKYXMTK_fake_script)()
+
+end
