@@ -1,7 +1,7 @@
 wait(2)
 local plr = game.Players.LocalPlayer
-if plr.Name == "usecodemrcodeoff" then
-game.Players.LocalPlayer:Kick("paki naga ")
+if plr.Name == "cones_xxxx" then
+game.Players.LocalPlayer:Kick("Do not exploit, This is a warning. Case #54281")
 else
 -- Gui to Lua
 -- Version: 3.2
